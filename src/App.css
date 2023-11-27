@@ -1,0 +1,108 @@
+body{
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  background-color: #f0f8ff;
+  background-image: url('./img/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0px;
+}
+
+/* Limitar os tamanhos do input de acordo a tag pai onde estão inseridos */
+input{
+  box-sizing: border-box;
+}
+
+input, select{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+button{
+  background-color: #333974;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.completar{
+  background-color: #003c00;
+  color: #ffffff;
+}
+
+.excluir{
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.excluir:hover{
+  background-color: #af0000;
+}
+
+.app{
+  max-width: 680px;
+  margin: 0 auto 300px;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.todo-form{
+  padding-bottom: 18px;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555555;
+}
+
+.todo{
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #161616;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter, .search{
+  border-bottom: 1px solid #555555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.filter-options div{
+  flex: 1 1 0;
+}
